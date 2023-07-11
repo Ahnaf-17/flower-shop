@@ -6,6 +6,9 @@ body {
 .text-color {
     color: #E55473;
 }
+.white-text{
+    color: #FFFFFF;
+}
 
 .button-style {
     color: #FFF;
@@ -166,4 +169,41 @@ main {
     border-radius: 8px;
     width: 1100px;
     height: 350px;
+}
+
+.email {
+    width: 300px;
+    height: 58px;
+    border-radius: 8px;
+    margin: auto;
+    width: 50%;
+}
+
+footer{
+    width: 100%;
+height: 449px;
+background-color: #111010;
+}
+
+.footer-title{
+    color: #E55473;
+font-size: 48px;
+font-weight: 800;
+text-align: center;
+padding-top: 150px;
+}
+.footer-text{
+    color: #FFFFFFE5;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+padding-left: 600px;
+padding-right: 600px;
+}
+.footer-credit{
+    color: #FFFFFF66;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
