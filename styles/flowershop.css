@@ -6,7 +6,8 @@ body {
 .text-color {
     color: #E55473;
 }
-.white-text{
+
+.white-text {
     color: #FFFFFF;
 }
 
@@ -29,14 +30,15 @@ body {
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
-
-.banner .header-pic {
-    width: 625px;
-    padding-right: 180px;
+.deal .deal-pic{
+    width: 318px;
+    height: 420px;
+    display: flex;
 }
+
 
 .banner-title {
     color: #272727;
@@ -92,13 +94,13 @@ main {
 
 }
 
-.deal {
+/* .deal {
     display: flex;
     background-color: #E554730D;
     margin: 100px 0px;
-    /* margin-left: 0; */
+    margin-left: 0;
     padding: 80px 100px;
-}
+} */
 
 .deal-title {
     color: #272727;
@@ -117,6 +119,36 @@ main {
     font-weight: 400;
     line-height: 30px;
 }
+/* .deal-content{
+    display: flex;
+    background-color:#E554730D ;
+    justify-content: space-around;
+    width: 100%;
+height: 620px;
+margin-left: -500px;
+
+} */
+.deal{
+
+        width: 100%;
+        height: 449px;
+        background-color: #E554730D;
+        width: 100%;
+        height: 620px;
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+        padding-left: 50px;
+        padding-right: 100px;
+    
+    
+}
+.deal .button-style{
+    margin-left: 200px;
+}
+
+
+
 
 .insta-title {
     color: #272727;
@@ -142,6 +174,7 @@ main {
     justify-content: space-around;
     gap: 24px;
     padding-bottom: 50px;
+    padding-left: 15px;
 
 }
 
@@ -167,8 +200,9 @@ main {
     background-image: url(../FlowerAsset/Rectangle-9.png);
     background-repeat: no-repeat;
     border-radius: 8px;
-    width: 1100px;
-    height: 350px;
+    width: 1440px;
+    height: 449px;
+    margin-left: -145px;
 }
 
 .email {
@@ -178,32 +212,126 @@ main {
     margin: auto;
     width: 50%;
 }
-
-footer{
+.box{
+    align-items: center;
+    padding-left: 350px;
+}
+footer {
     width: 100%;
-height: 449px;
-background-color: #111010;
+    height: 449px;
+    background-color: #111010;
 }
 
-.footer-title{
+.footer-title {
     color: #E55473;
-font-size: 48px;
-font-weight: 800;
-text-align: center;
-padding-top: 150px;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 150px;
 }
-.footer-text{
+
+.footer-text {
     color: #FFFFFFE5;
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-padding-left: 600px;
-padding-right: 600px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 600px;
+    padding-right: 600px;
 }
-.footer-credit{
+
+.footer-credit {
     color: #FFFFFF66;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
+}
+
+.featured-pic {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px;
+    padding-bottom: 100px;
+    width: 310px;
+    height: 600px;
+    padding-left: 400px;
+
+}
+
+.fi1 {
+
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: #A7216226;
+}
+
+.fi2 {
+    width: 400px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: #0597A026;
+}
+
+.fi3 {
+    width: 500px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: #477D1126;
+
+}
+
+.i1 {
+    padding-top: 110px;
+    padding-left: 38px;
+    padding-right: 38px;
+
+}
+
+.i2 {
+    padding-top: 110px;
+    padding-left: 20px;
+
+
+}
+
+.i3 {
+    padding-top: 67px;
+    padding-left: 38px;
+    padding-right: 38px;
+}
+
+.ft1 {
+    text-align: center;
+    padding-left: 5px;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.ft2 {
+    text-align: center;
+    padding-left: 5px;
+    padding-top: 60px;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+
+}
+
+.ft3 {
+    text-align: center;
+    padding-left: 10px;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+
 }
